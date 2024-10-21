@@ -1707,7 +1707,7 @@ section,
 }
 
 .modal-content hr {
-  width: 50%;
+  width: 25%;
   margin: 20px auto;
   border: 1px solid var(--accent-color);
 }
@@ -1730,12 +1730,20 @@ section,
   .modal-content {
     margin: 14% auto 0 auto;
   }
+
+  .modal-content hr {
+    width: 50%;
+  }
 }
 
  /* Mobile Modal Styles */
 @media (max-width: 767px){
   .modal-content {
     margin: 21% auto 0 auto;
+  }
+
+  .modal-content hr {
+    width: 50%;
   }
 }
 
